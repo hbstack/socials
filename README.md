@@ -5,4 +5,3 @@
 ![Hugo Requirements](https://img.shields.io/badge/dynamic/json?color=important&label=requirements&query=requirements&logo=hugo&style=flat-square&url=https://api.razonyang.com/v1/hugo/modules/github.com/hbstack/socials)
 [![License](https://img.shields.io/github/license/hbstack/socials?style=flat-square)](https://github.com/hbstack/socials/blob/main/LICENSE)
 [![Version](https://img.shields.io/badge/dynamic/json?color=blue&label=version&query=name&url=https://api.razonyang.com/v1/github/tag/hbstack/socials&style=flat-square)](https://github.com/hbstack/socials/tags)
-[![Lint](https://github.com/hbstack/socials/actions/workflows/lint.yml/badge.svg?style=flat-square)](https://github.com/hbstack/socials/actions/workflows/lint.yml)
