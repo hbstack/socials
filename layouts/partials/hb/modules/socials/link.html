@@ -15,7 +15,7 @@
   "lastdotfm" (dict "url" "https://www.last.fm/user/%s" "color" "#ba0000")
   "liberapay" (dict "url" "https://liberapay.com/%s")
   "linkedin" (dict "url" "https://linkedin.com/in/%s" "color" "#0a66c2")
-  "mastodon" (dict "url" "https://mastodon.social/@%s" "color" "#5c4ce2")
+  "mastodon" (dict "url" "https://mastodon.social/@%s" "color" "#5c4ce2" "rel" "me")
   "opencollective" (dict "url" "https://opencollective.com/%s")
   "medium" (dict "url" "https://medium.com/@%s")
   "patreon" (dict "url" "https://www.patreon.com/%s" "color" "#ff424d")
@@ -39,6 +39,7 @@
 {{- $color := .color }}
 {{- $width := default "1em" .width }}
 {{- $height := default "1em" .height }}
+{{- $rel := "external" }}
 {{- $url := urls.Parse .id }}
 {{- with index $media .name }}
   {{- if not $url.Scheme }}
@@ -50,12 +51,15 @@
   {{- with .icon }}
     {{- $icon = . }}
   {{- end }}
+  {{- with .rel }}
+    {{- $rel = . }}
+  {{- end }}
 {{- end }}
 <a
   class="hb-social {{ .class }}"
   href="{{ $url }}"
   target="_blank"
-  rel="external"
+  rel="{{ $rel }}"
   title="{{ $title }}">
   {{- partial "icons/icon" (dict "vendor" "simple-icons" "name" $icon "color" $color "className" "hb-social-icon" "width" $width "height" $height) }}
   {{- if default false .text }}
