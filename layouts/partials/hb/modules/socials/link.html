@@ -4,6 +4,7 @@
   "bitbucket" (dict "url" "https://bitbucket.org/%s" "color" "#0e65df")
   "discord" (dict "url" "https://discord.com/invite/%s")
   "dockerhub" (dict "url" "https://hub.docker.com/u/%s" "icon" "docker")
+  "email" (dict "url" "mailto:%s" "iconVendor" "bs" "iconName" "envelope-fill")
   "facebook" (dict "url" "https://facebook.com/%s" "color" "#1877f2")
   "facebookgroup" (dict "url" "https://facebook.com/groups/%s" "color" "#1877f2" "icon" "facebook")
   "github" (dict "url" "https://github.com/%s")
@@ -35,12 +36,15 @@
   "zhihu" (dict "url" "https://www.zhihu.com/people/%s" "color" "#056de8")
 }}
 {{- $title := default (.name | title) (printf `social_%s` .name | i18n) }}
-{{- $icon := .name }}
+{{- $icon := default .name .iconName }}
+{{- $iconVendor := "simple-icons" }}
 {{- $color := .color }}
 {{- $width := default "1em" .width }}
 {{- $height := default "1em" .height }}
 {{- $url := urls.Parse .id }}
 {{- with index $media .name }}
+  {{- with .iconName }}{{ $icon = . }}{{ end }}
+  {{- with .iconVendor }}{{ $iconVendor = . }}{{ end }}
   {{- if not $url.Scheme }}
     {{- $url = printf .url $.id }}
   {{- end }}
@@ -57,7 +61,13 @@
   target="_blank"
   rel="nofollow me"
   title="{{ $title }}">
-  {{- partial "icons/icon" (dict "vendor" "simple-icons" "name" $icon "color" $color "className" "hb-social-icon" "width" $width "height" $height) }}
+  {{- partial "icons/icon" (dict
+    "vendor" $iconVendor
+    "name" $icon
+    "color" $color
+    "className" "hb-social-icon"
+    "width" $width
+    "height" $height) }}
   {{- if default false .text }}
     <span class="hb-social-text{{ with .textClass }} {{ . }}{{ end }}">
       {{- $title -}}
