@@ -7,3 +7,4 @@ github.com/hugomods/icons/vendors/bootstrap v0.5.0 h1:CHEGk677heq2kJZa7XsGHRc3Hw
 github.com/hugomods/icons/vendors/bootstrap v0.5.0/go.mod h1:kfC17VWV+tNi6PGF4AY7CJBBa1/HEgWxCYq2kNOdcdI=
 github.com/hugomods/icons/vendors/simple-icons v1.0.9 h1:ozJ1MSB+HdWtvSzqJDjqb5W4D764oailCexZQ/GLiZI=
 github.com/hugomods/icons/vendors/simple-icons v1.0.9/go.mod h1:N25uIaNZSI+V/7sIVzIiVYzLdLb8wLQdtU8+bDqAfFE=
+github.com/hugomods/icons/vendors/simple-icons v1.0.10/go.mod h1:Q89vk6C3APCGLGitoKG4lcoZN/iCn5wVilAraxrxtFQ=
