@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/hbstack/socials/compare/v0.3.0...v0.4.0) (2023-09-03)
+
+
+### Features
+
+* add support for the threads.net ([a21fb53](https://github.com/hbstack/socials/commit/a21fb5377ebdb255dad92bf0681b1ee8396befcd))
+
 ## [0.3.0](https://github.com/hbstack/socials/compare/v0.2.0...v0.3.0) (2023-08-09)
 
 
