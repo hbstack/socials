@@ -26,6 +26,7 @@
   "reddit" (dict "url" "https://www.reddit.com/user/%s" "color" "#FF4500")
   "sinaweibo" (dict "url" "https://weibo.com/%s" "color" "#e1162c")
   "stackoverflow" (dict "url" "https://stackoverflow.com/users/%s" "color" "#f48024")
+  "tel" (dict "url" "tel:%s" "iconVendor" "bs" "iconName" "telephone-fill")
   "telegram" (dict "url" "https://t.me/%s" "color" "#2481cc")
   "tencetqq" (dict "url" "http://wpa.qq.com/msgrd?v=3&uin=%s&site=qq&menu=yes")
   "threads" (dict "url" "https://www.threads.net/@%s")
@@ -37,6 +38,9 @@
   "zhihu" (dict "url" "https://www.zhihu.com/people/%s" "color" "#056de8")
 }}
 {{- $title := default (.name | title) (printf `social_%s` .name | i18n) }}
+{{- if eq .name "tel" }}
+  {{- $title = .id }}
+{{- end }}
 {{- $icon := default .name .iconName }}
 {{- $iconVendor := "simple-icons" }}
 {{- $color := .color }}
@@ -58,7 +62,7 @@
 {{- end }}
 <a
   class="hb-social {{ .class }}"
-  href="{{ $url }}"
+  href="{{ $url | safeURL }}"
   target="_blank"
   rel="nofollow me"
   title="{{ $title }}">
