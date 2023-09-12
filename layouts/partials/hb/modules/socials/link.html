@@ -24,6 +24,7 @@
   "pinterest" (dict "url" "https://www.pinterest.com/%s" "color" "#cc0000")
   "quora" (dict "url" "https://www.quora.com/profile/%s" "color" "#b92b27")
   "reddit" (dict "url" "https://www.reddit.com/user/%s" "color" "#FF4500")
+  "rss" (dict "iconVendor" "bs" "iconName" "rss-fill")
   "sinaweibo" (dict "url" "https://weibo.com/%s" "color" "#e1162c")
   "stackoverflow" (dict "url" "https://stackoverflow.com/users/%s" "color" "#f48024")
   "tel" (dict "url" "tel:%s" "iconVendor" "bs" "iconName" "telephone-fill")
@@ -51,7 +52,13 @@
   {{- with .iconName }}{{ $icon = . }}{{ end }}
   {{- with .iconVendor }}{{ $iconVendor = . }}{{ end }}
   {{- if not $url.Scheme }}
-    {{- $url = printf .url $.id }}
+    {{- if .url }}
+      {{- $url = printf .url $.id }}
+    {{- else if eq $.name "rss" }}
+      {{- with site.Home.OutputFormats.Get "rss" }}
+        {{- $url = .RelPermalink }}
+      {{- end }}
+    {{- end }}
   {{- end }}
   {{- if and (ne $color false) .color }}
     {{- $color = .color }}
