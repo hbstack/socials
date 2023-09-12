@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/hbstack/socials/compare/v0.5.0...v0.5.1) (2023-09-12)
+
+
+### Bug Fixes
+
+* add the missing translations for RSS feeds ([49746a4](https://github.com/hbstack/socials/commit/49746a4ca4f41496342320192ed4e8259edad79d))
+
 ## [0.5.0](https://github.com/hbstack/socials/compare/v0.4.0...v0.5.0) (2023-09-12)
 
 
