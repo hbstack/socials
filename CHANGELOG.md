@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.0](https://github.com/hbstack/socials/compare/v0.4.0...v0.5.0) (2023-09-12)
+
+
+### Features
+
+* add the RSS feed link ([#94](https://github.com/hbstack/socials/issues/94)) ([b310500](https://github.com/hbstack/socials/commit/b31050053ebc4898b9bce9eb1f1f2a7189b3065c))
+* add the tel social link for telephone ([#92](https://github.com/hbstack/socials/issues/92)) ([9fada85](https://github.com/hbstack/socials/commit/9fada8527e1cf32bb42a89838caa5ed1a3d24c1a))
+
 ## [0.4.0](https://github.com/hbstack/socials/compare/v0.3.0...v0.4.0) (2023-09-03)
 
 
