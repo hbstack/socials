@@ -73,6 +73,9 @@ other = "Quora"
 [social_reddit]
 other = "Reddit"
 
+[social_rss]
+other = "RSS"
+
 [social_stackoverflow]
 other = "Stack Overflow"
 
