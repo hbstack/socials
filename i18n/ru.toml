@@ -1,0 +1,110 @@
+[social_artstation]
+other = "ArtStation"
+
+[social_bilibili]
+other = "Bilibili"
+
+[social_bitbucket]
+other = "Bitbucket"
+
+[social_codeberg]
+other = "Codeberg"
+
+[social_discord]
+other = "Дискорд"
+
+[social_discourse]
+other = "Discourse"
+
+[social_dockerhub]
+other = "Докер Хаб"
+
+[social_facebook]
+other = "Фейсбук"
+
+[social_facebookgroup]
+other = "Группа Фейсбук"
+
+[social_github]
+other = "ГитХаб"
+
+[social_gitlab]
+other = "ГитЛаб"
+
+[social_instagram]
+other = "Инстаграм"
+
+[social_itchdotio]
+other = "itch.io"
+
+[social_kaggle]
+other = "Kaggle"
+
+[social_kofi]
+other = "Ko-fi"
+
+[social_lastfm]
+other = "Last.fm"
+
+[social_liberapay]
+other = "Liberapay"
+
+[social_linkedin]
+other = "LinkedIn"
+
+[social_mastodon]
+other = "Mastodon"
+
+[social_medium]
+other = "Medium"
+
+[social_opencollective]
+other = "Open Collective"
+
+[social_patreon]
+other = "Patreon"
+
+[social_paypal]
+other = "PayPal"
+
+[social_pinterest]
+other = "Pinterest"
+
+[social_quora]
+other = "Quora"
+
+[social_reddit]
+other = "Reddit"
+
+[social_rss]
+other = "RSS"
+
+[social_stackoverflow]
+other = "Stack Overflow"
+
+[social_telegram]
+other = "Телеграм"
+
+[social_tencetqq]
+other = "QQ"
+
+[social_tiktok]
+other = "ТикТок"
+
+[social_tumblr]
+other = "Tumblr"
+
+[social_twitter]
+other = "Твиттер"
+
+[social_weibo]
+other = "Weibo"
+
+[social_xing]
+other = "XING"
+
+[social_youtube]
+other = "ЮТуб"
+
+[social_zhihu]
+other = "Zhihu"
