@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.0](https://github.com/hbstack/socials/compare/v0.7.0...v0.8.0) (2023-11-01)
+
+
+### Features
+
+* **i18n:** add Russian translations ([#123](https://github.com/hbstack/socials/issues/123)) ([00ec5d3](https://github.com/hbstack/socials/commit/00ec5d3bb3c0c92f0b0b4d4543f3bb200ca6d055))
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-scss to v5.3.0 ([4b9d9ca](https://github.com/hbstack/socials/commit/4b9d9caa8580ae1c83440a89161b935ad3c2d9c9))
+
 ## [0.7.0](https://github.com/hbstack/socials/compare/v0.6.0...v0.7.0) (2023-10-21)
 
 
