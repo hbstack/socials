@@ -6,5 +6,5 @@ require (
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hbstack/hb v0.7.2 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.1 // indirect
-	github.com/hugomods/icons/vendors/simple-icons v1.0.19 // indirect
+	github.com/hugomods/icons/vendors/simple-icons v1.0.20 // indirect
 )
