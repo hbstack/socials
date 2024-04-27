@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/hbstack/socials/compare/v0.10.0...v0.11.0) (2024-04-27)
+
+
+### Features
+
+* add support for GitHub Sponsors ([#224](https://github.com/hbstack/socials/issues/224)) ([ede9d57](https://github.com/hbstack/socials/commit/ede9d577039cf71a20545b1e5bb59101630ef885))
+
 ## [0.10.0](https://github.com/hbstack/socials/compare/v0.9.0...v0.10.0) (2024-04-23)
 
 
