@@ -82,6 +82,9 @@ other = "Reddit"
 [social_rss]
 other = "RSS"
 
+[social_sinaweibo]
+other = "新浪微博"
+
 [social_stackoverflow]
 other = "Stack Overflow"
 
@@ -99,9 +102,6 @@ other = "Tumblr"
 
 [social_twitter]
 other = "推特"
-
-[social_weibo]
-other = "微博"
 
 [social_xing]
 other = "XING"
