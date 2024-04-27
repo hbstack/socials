@@ -28,6 +28,9 @@ other = "臉書群組"
 [social_github]
 other = "GitHub"
 
+[social_githubsponsors]
+other = "GitHub 贊助商"
+
 [social_gitlab]
 other = "GitLab"
 

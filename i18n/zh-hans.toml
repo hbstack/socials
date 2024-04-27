@@ -28,6 +28,9 @@ other = "脸书群组"
 [social_github]
 other = "GitHub"
 
+[social_githubsponsors]
+other = "GitHub 赞助商"
+
 [social_gitlab]
 other = "GitLab"
 
