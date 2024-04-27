@@ -28,6 +28,9 @@ other = "Grupo do Facebook"
 [social_github]
 other = "GitHub"
 
+[social_githubsponsors]
+other = "GitHub Sponsors"
+
 [social_gitlab]
 other = "GitLab"
 

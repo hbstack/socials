@@ -28,6 +28,9 @@ other = "Группа Фейсбук"
 [social_github]
 other = "ГитХаб"
 
+[social_githubsponsors]
+other = "GitHub Sponsors"
+
 [social_gitlab]
 other = "ГитЛаб"
 
