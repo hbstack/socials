@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.12.0](https://github.com/hbstack/socials/compare/v0.11.0...v0.12.0) (2024-04-27)
+
+
+### Features
+
+* add support for website ([#228](https://github.com/hbstack/socials/issues/228)) ([13cd599](https://github.com/hbstack/socials/commit/13cd599c7299a85a2cd6ac175950b0e964d8c85a))
+
+
+### Bug Fixes
+
+* **i18n:** Sina Weibo translations ([#226](https://github.com/hbstack/socials/issues/226)) ([03a8fd8](https://github.com/hbstack/socials/commit/03a8fd8d603f7a1d3ca10e63d18a453a8c78626e))
+
 ## [0.11.0](https://github.com/hbstack/socials/compare/v0.10.0...v0.11.0) (2024-04-27)
 
 
