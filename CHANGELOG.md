@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.0](https://github.com/hbstack/socials/compare/v0.12.0...v0.13.0) (2024-04-29)
+
+
+### Features
+
+* add support for Buy Me a Coffee ([#230](https://github.com/hbstack/socials/issues/230)) ([26275a3](https://github.com/hbstack/socials/commit/26275a3906511190a69a9e4b673ad162fe63df8f))
+
 ## [0.12.0](https://github.com/hbstack/socials/compare/v0.11.0...v0.12.0) (2024-04-27)
 
 
