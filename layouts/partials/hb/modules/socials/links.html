@@ -1,0 +1,23 @@
+{{- $media := slice }}
+{{- if reflect.IsMap .Media }}
+  {{- range $name, $id := .Media }}
+    {{- if hasPrefix $name "_" }}
+      {{- continue }}
+    {{- end }}
+    {{- $media = $media | append (dict "name" $name "id" $id) }}
+  {{- end }}
+{{- else }}
+  {{- $media = .Media }}
+{{- end }}
+{{- $wrapperTag := .WrapperTag }}
+{{- $opts := default dict .Options }}
+{{- range $media }}
+  {{- with $wrapperTag }}
+    {{- printf `<%s class="%s">` . (default "" $.WrapperClass) | safeHTML }}
+  {{- end }}
+  {{- $ctx := merge $opts . }}
+  {{- partial "hb/modules/socials/link" $ctx }}
+  {{- with $wrapperTag }}
+    {{- printf "</%s>" . | safeHTML }}
+  {{- end }}
+{{- end }}
