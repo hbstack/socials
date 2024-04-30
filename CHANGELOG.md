@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.14.0](https://github.com/hbstack/socials/compare/v0.13.0...v0.14.0) (2024-04-30)
+
+
+### Features
+
+* add the links template for rendering a set of social links ([#232](https://github.com/hbstack/socials/issues/232)) ([5379767](https://github.com/hbstack/socials/commit/5379767e7a04568b1a00d2c54b8868918c7c8ab4))
+
 ## [0.13.0](https://github.com/hbstack/socials/compare/v0.12.0...v0.13.0) (2024-04-29)
 
 
