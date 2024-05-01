@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.14.1](https://github.com/hbstack/socials/compare/v0.14.0...v0.14.1) (2024-05-01)
+
+
+### Bug Fixes
+
+* encode telephone number and email address ([#236](https://github.com/hbstack/socials/issues/236)) ([6bf0abd](https://github.com/hbstack/socials/commit/6bf0abd612bc297ae20dec59de361296c7736e1f))
+* **i18n:** add missing translations for `tel` ([c1b58ee](https://github.com/hbstack/socials/commit/c1b58eef9d3b3c11abca914641439847318818d9))
+* parsing email address for `gmail` ([ebe3fe8](https://github.com/hbstack/socials/commit/ebe3fe86261a4acd97d74e4957435046cdfad0d8))
+
 ## [0.14.0](https://github.com/hbstack/socials/compare/v0.13.0...v0.14.0) (2024-04-30)
 
 
