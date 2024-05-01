@@ -91,6 +91,9 @@ other = "新浪微博"
 [social_stackoverflow]
 other = "Stack Overflow"
 
+[social_tel]
+other = "电话号码"
+
 [social_telegram]
 other = "Telegram"
 

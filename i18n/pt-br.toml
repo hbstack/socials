@@ -91,6 +91,9 @@ other = "Sina Weibo"
 [social_stackoverflow]
 other = "Stack Overflow"
 
+[social_tel]
+other = "Telephone"
+
 [social_telegram]
 other = "Telegram"
 
