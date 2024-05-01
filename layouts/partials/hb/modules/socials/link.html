@@ -71,9 +71,14 @@
     {{- $icon = . }}
   {{- end }}
 {{- end }}
+{{- if or (hasPrefix $url "mailto:") (hasPrefix $url "tel:") }}
+  {{- $url = partial "ascii/str2html" $url }}
+{{- else }}
+  {{- $url = $url | safeURL }}
+{{- end }}
 <a
   class="hb-social {{ .class }}"
-  href="{{ $url | safeURL }}"
+  {{ printf `href="%s"` $url | safeHTMLAttr }}
   target="_blank"
   rel="nofollow me"
   title="{{ $title }}">
