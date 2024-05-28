@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.0](https://github.com/hbstack/socials/compare/v0.14.1...v0.15.0) (2024-05-28)
+
+
+### Features
+
+* **i18n:** add Vietnamese translations ([9b275dc](https://github.com/hbstack/socials/commit/9b275dcea015f1b8124a48743aa0bbec3410059e))
+
 ## [0.14.1](https://github.com/hbstack/socials/compare/v0.14.0...v0.14.1) (2024-05-01)
 
 
