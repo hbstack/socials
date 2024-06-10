@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.16.0](https://github.com/hbstack/socials/compare/v0.15.0...v0.16.0) (2024-06-10)
+
+
+### Features
+
+* add support for X ([#242](https://github.com/hbstack/socials/issues/242)) ([9acdf50](https://github.com/hbstack/socials/commit/9acdf5062d684e63f14e40e6b5203fecbc7666d6))
+
+
+### Bug Fixes
+
+* use X icon for Twitter ([9acdf50](https://github.com/hbstack/socials/commit/9acdf5062d684e63f14e40e6b5203fecbc7666d6))
+
 ## [0.15.0](https://github.com/hbstack/socials/compare/v0.14.1...v0.15.0) (2024-05-28)
 
 
