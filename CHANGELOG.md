@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.17.1](https://github.com/hbstack/socials/compare/v0.17.0...v0.17.1) (2024-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-scss to v6.10.0 ([4df2f2b](https://github.com/hbstack/socials/commit/4df2f2be2e750553660414c0ba845cb575f1fe33))
+* **deps:** update dependency stylelint-scss to v6.8.0 ([29038d7](https://github.com/hbstack/socials/commit/29038d76e4451c70b717a5ca174590cd89417a45))
+* **deps:** update dependency stylelint-scss to v6.8.1 ([4fef9da](https://github.com/hbstack/socials/commit/4fef9da00a5cb29301431b2e275a3e9aa50222a8))
+* **deps:** update dependency stylelint-scss to v6.9.0 ([37169f0](https://github.com/hbstack/socials/commit/37169f01d00e031f96ed23701e7f15e458b53fce))
+* replace the RSS links scheme with `feed` to launch up an RSS reader application ([462adff](https://github.com/hbstack/socials/commit/462adff1045a441c694355c87102587f90e86c8a))
+
 ## [0.17.0](https://github.com/hbstack/socials/compare/v0.16.0...v0.17.0) (2024-10-09)
 
 
