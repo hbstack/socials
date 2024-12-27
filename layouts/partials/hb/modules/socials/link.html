@@ -63,7 +63,7 @@
       {{- $url = printf .url $.id }}
     {{- else if eq $.name "rss" }}
       {{- with site.Home.OutputFormats.Get "rss" }}
-        {{- $url = .RelPermalink }}
+        {{- $url = .Permalink | printf "feed:%s" }}
       {{- end }}
     {{- end }}
   {{- end }}
