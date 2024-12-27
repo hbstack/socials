@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.17.2](https://github.com/hbstack/socials/compare/v0.17.1...v0.17.2) (2024-12-27)
+
+
+### Bug Fixes
+
+* replace RSS feed scheme with `feed` on Safari only ([459a9f4](https://github.com/hbstack/socials/commit/459a9f4031bbf367d9a81cafa8e89abc7ef9e484))
+
 ## [0.17.1](https://github.com/hbstack/socials/compare/v0.17.0...v0.17.1) (2024-12-27)
 
 
