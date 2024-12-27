@@ -63,7 +63,7 @@
       {{- $url = printf .url $.id }}
     {{- else if eq $.name "rss" }}
       {{- with site.Home.OutputFormats.Get "rss" }}
-        {{- $url = .Permalink | printf "feed:%s" }}
+        {{- $url = .Permalink }}
       {{- end }}
     {{- end }}
   {{- end }}
@@ -84,6 +84,7 @@
   {{ printf `href="%s"` $url | safeHTMLAttr }}
   target="_blank"
   rel="nofollow me"
+  {{ if eq .name "rss" }}data-rss-feed{{ end }}
   title="{{ $title }}">
   {{- partial "icons/icon" (dict
     "vendor" $iconVendor
