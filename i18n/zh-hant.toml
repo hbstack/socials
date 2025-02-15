@@ -10,6 +10,9 @@ other = "嗶哩嗶哩"
 [social_bitbucket]
 other = "Bitbucket"
 
+[social_bluesky]
+other = "Bluesky"
+
 [social_buymeacoffee]
 other = "Buy Me a Coffee"
 
