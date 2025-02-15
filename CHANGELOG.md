@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.18.0](https://github.com/hbstack/socials/compare/v0.17.2...v0.18.0) (2025-02-15)
+
+
+### Features
+
+* add support for Bluesky ([#366](https://github.com/hbstack/socials/issues/366)) ([5faca3e](https://github.com/hbstack/socials/commit/5faca3efdb3ce8f89d1c1a510648eaf25abc8fcd))
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-scss to v6.10.1 ([aa52853](https://github.com/hbstack/socials/commit/aa5285305152b93c45109baeee3b8051de7e311d))
+* **deps:** update dependency stylelint-scss to v6.11.0 ([58ac203](https://github.com/hbstack/socials/commit/58ac20332cca6725fc1afa6118a5bf97011a8c87))
+
 ## [0.17.2](https://github.com/hbstack/socials/compare/v0.17.1...v0.17.2) (2024-12-27)
 
 
