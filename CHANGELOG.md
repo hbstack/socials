@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.18.1](https://github.com/hbstack/socials/compare/v0.18.0...v0.18.1) (2025-06-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-scss to v6.11.1 ([0123885](https://github.com/hbstack/socials/commit/0123885a4e86da1e7d86e4c8fdb493358f085864))
+* **deps:** update dependency stylelint-scss to v6.12.0 ([54c4fa5](https://github.com/hbstack/socials/commit/54c4fa5b303c14a2b6f8baf77287f7a315c0d041))
+* **deps:** update dependency stylelint-scss to v6.12.1 ([58a0e37](https://github.com/hbstack/socials/commit/58a0e372177a33526501a3d1f0186cf4286c9041))
+
 ## [0.18.0](https://github.com/hbstack/socials/compare/v0.17.2...v0.18.0) (2025-02-15)
 
 
